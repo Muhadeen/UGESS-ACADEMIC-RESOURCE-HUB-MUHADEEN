@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Access Economics Together | UGESS Presidential Campaign</title>
+    <style>
+        /* Base styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            line-height: 1.6;
+            color: #333;
+            background-color: #f8f9fa;
+        }
+        
+        /* Header styles */
+        header {
+            background-color: #1a5276;
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+        }
+        
+        .header-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+        
+        .site-title {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        .tagline {
+            font-size: 1.2rem;
+            font-weight: 300;
+        }
+        
+        /* Navigation */
+        nav {
+            background-color: #2874a6;
+        }
+        
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .nav-menu {
+            list-style: none;
+            display: flex;
+        }
+        
+        .nav-menu li {
+            padding: 1rem;
+        }
+        
+        .nav-menu a {
+            color: white;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+        
+        .nav-menu a:hover {
+            color: #f0f0f0;
+            text-decoration: underline;
+        }
+        
+        /* Main content */
+        main {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 2rem;
+        }
+        
+        section {
+            margin-bottom: 3rem;
+            background-color: white;
+            padding: 2rem;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        
+        h2 {
+            color: #1a5276;
+            margin-bottom: 1rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid #eee;
+        }
+        
+        p {
+            margin-bottom: 1rem;
+        }
+        
+        ul {
+            margin-left: 2rem;
+            margin-bottom: 1rem;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background-color: #1a5276;
+            color: white;
+            padding: 0.8rem 1.5rem;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: bold;
+            margin-top: 1rem;
+            transition: background-color 0.3s ease;
+        }
+        
+        .cta-button:hover {
+            background-color: #154360;
+        }
+        
+        /* Resources section */
+        .resources-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+        
+        .resource-card {
+            background-color: #f8f9fa;
+            border: 1px solid #e9ecef;
+            border-radius: 5px;
+            padding: 1.5rem;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .resource-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        .resource-card h3 {
+            margin-bottom: 0.5rem;
+            color: #2874a6;
+        }
+        
+        /* Footer */
+        footer {
+            background-color: #1a5276;
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+            margin-top: 3rem;
+        }
+        
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+        
+        .social-links {
+            margin-top: 1rem;
+        }
+        
+        .social-links a {
+            color: white;
+            margin: 0 0.5rem;
+            font-size: 1.2rem;
+            text-decoration: none;
+        }
+        
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .nav-container {
+                flex-direction: column;
+                padding: 0;
+            }
+            
+            .nav-menu {
+                flex-direction: column;
+                width: 100%;
+                text-align: center;
+            }
+            
+            .resources-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+<div style="text-align: center; margin: 2rem auto; max-width: 800px; padding: 0 2rem;">
+    <img src="https://i.ibb.co/pj3C7BTt/ep-Ls-A2-ZL-400x400.jpg" alt="UGESS Presidential Campaign Flyer" style="max-width: 13%; height: auto; box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1); border-radius: 5px;">
+</div>
+    </div>
+        <div class="header-content">
+            <h1 class="site-title">Economics Made Accessible for All</h1>
+            <h1 class="site-title">MUHADEEN MOHAMMED FOR UGESS PRESIDENT</h1>
+            <p class="tagline">Economics resources for all University of Ghana students</p>
+        </div>
+    </header>
+    
+    <nav>
+        <div class="nav-container">
+            <div class="logo">
+                <a href="#" style="color: white; text-decoration: none; font-weight: bold;">University of Ghana Economics Students Society(UGESS)</a>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#resources">Resources</a></li>
+                <li><a href="#vision">My Vision</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p><strong>Hello, Economics students!</strong> I am <strong>Muhadeen Mohammed</strong>, a dedicated Economics student at the University of Ghana and a passionate Aspirant for UGESS President 2025. My journey in this department has shown me the academic struggles students face; finding the right study materials, accessing past questions, and collaborating effectively.</p>
+            
+            <p>This is why I'm not just making promises, I'm taking action. Through this platform, I am providing <strong>free, well-organized Economics resources</strong> for all students, ensuring that learning is accessible, structured, and effective. My vision is simple: <strong>a student society that actively supports your academic and professional growth.</strong></p>
+            
+            <p>Vote for me, and let's build an Economics department where everyone thrives!</p>
+        </section>
+        
+        <section id="resources">
+            <h2>What You'll Find Here</h2>
+            <p>This website serves as your one-stop resource center for Economics course materials:</p>
+            <ul>
+                <li>Lecture slides for all Economics courses</li>
+                <li>Past examination questions with sample answers where available</li>
+                <li>Recommended textbooks and journal articles</li>
+                <li>Study guides and summary notes</li>
+                <li>Tutorial materials and practice problems</li>
+            </ul>
+            <p>All resources are organized by year level, semester, and course code for seamless navigation, ensuring you can quickly find exactly what you need for your studies.</p>
+            
+            <div class="resources-grid">
+                <div class="resource-card">
+                    <h3>Level 100</h3>
+                    <a href="Level100.html" class="cta-button">Access Resources</a>
+                </div>
+                
+                <div class="resource-card">
+                    <h3>Level 200</h3>
+                    <a href="Level200.html" class="cta-button">Access Resources</a>
+                </div>
+                
+                <div class="resource-card">
+                    <h3>Level 300</h3>
+                    <a href="Level300.html" class="cta-button">Access Resources</a>
+                </div>
+                
+                <div class="resource-card">
+                    <h3>Level 400</h3>
+                    <a href="Level400.html" class="cta-button">Access Resources</a>
+                </div>
+            </div>
+        </section>
+        
+        <section id="vision">
+            <h2>My Vision & Plans</h2>
+            <p>As UGESS President, I will:</p>
+            <ul>
+                <li><strong>Expand and improve</strong> this online Economics resource hub.</li>
+                <li><strong>Facilitate study groups</strong> and peer mentorship programs.</li>
+                <li><strong>Enhance faculty-student engagement</strong> for better academic support.</li>
+                <li><strong>Organize practical workshops</strong> to prepare students for the job market.</li>
+                <li><strong>Improve access to past questions, lecture slides, and textbooks</strong> to make learning easier for all.</li>
+            </ul>
+            
+            <h2>Get Involved</h2>
+            <p>Want to support this movement? You can:</p>
+            <ul>
+                <li>✔️ Volunteer to spread awareness about the campaign.</li>
+                <li>✔️ Share feedback and ideas to improve UGESS.</li>
+                <li>✔️ Join our team to help organize academic programs.</li>
+            </ul>
+            
+            <a href="#" class="cta-button">Vote Muhadeen Mohammed for UGESS President</a>
+        </section>
+        
+        <section id="contact">
+            <h2>Get in Touch</h2>
+            <p>Have questions or want to discuss my campaign platform further? Reach out to me!</p>
+            <p><strong>Email:</strong> muhadeenmohammed7@gmail.com</p>
+            <p><strong>Phone:</strong> +233 54 777 9727</p>
+            <p><strong>Snapchat:</strong> @mollyn777</p>
+            
+            <p>I'm always eager to hear your suggestions for improving this resource platform and my broader vision for UGESS.</p>
+        </section>
+    </main>
+    
+  <div style="text-align: center; margin: 2rem auto; max-width: 800px; padding: 0 2rem;">
+    <img src="https://i.ibb.co/DgGSQx6p/Whats-App-Image-2025-02-27-at-07-21-23-b15c9ded.jpg" alt="UGESS Presidential Campaign Flyer" style="max-width: 70%; height: auto; box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); border-radius: 5px;">
+</div>
+
+
+    <footer>
+        <div class="footer-content">
+            <p>MUHADEEN MOHAMMED | Aspirant for UGESS President | University of Ghana</p>
+            <div class="social-links">
+                <a href="http://Wa.me/+223547779727">WhatsApp</a> | 
+                <a href="https://www.snapchat.com/add/mollyn777?share_id=yuL2TcHp2Y8&locale=en-US">Snapchat</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
